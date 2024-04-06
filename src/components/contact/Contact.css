@@ -1,0 +1,24 @@
+.contact{
+    background-color: black;
+    width: 100%;
+    color: white;
+   
+    height: 100vh;       
+   
+   
+}
+::placeholder {
+    color: rgba(255, 255, 255, 0.521);
+    opacity: 1;
+  }
+  .button{
+   border:'none';
+   background-color:yellow;
+    width:55vh; 
+    height:6vh;
+     border-radius:20px;
+  }
+  .button:hover{
+    background-color: rgba(255, 255, 0, 0.473);
+    color: white;
+  }

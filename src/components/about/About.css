@@ -1,0 +1,13 @@
+.about{
+    background-color: rgba(0, 0, 0, 0.799);
+    height: 250vh;
+    color: white;
+    position: fixed;
+    top: 60px;
+  }
+  .paragraph{
+    padding-left: 10rem;
+    width:50%;
+  }
+  
+  

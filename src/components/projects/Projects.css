@@ -1,0 +1,63 @@
+.projects{   
+   
+    width: 100%;
+    height: 250vh;
+    background-color: black;
+}
+.projects2{   
+    position: relative; 
+    top: 70px;
+    
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card-container {
+    display: flex;
+    gap: 100px; 
+  }
+/* .button{
+    background-color: yellow;
+    border: none;
+    border-radius: 20px;
+    padding: 15px;
+    color: black;
+}
+.button:hover{
+    background-color: grey;
+}
+.button2{
+    background-color: rgba(0, 0, 0, 0.701);
+    border: none;
+    border-radius: 20px;
+    padding: 15px;
+    color: white;
+}
+.button2:hover{
+    background-color: rgb(128, 128, 128);
+} */
+.anchor{
+    text-decoration: none;
+    background-color: yellow;    
+    border-radius: 20px;
+    padding: 15px;
+    color: black;
+
+}
+.anchor:hover{
+    background-color: grey;
+}
+.anchor2{
+    text-decoration: none;
+   background-color: rgba(0, 0, 0, 0.626);   
+    border-radius: 20px;
+    padding: 15px;
+    color: white;
+}
+.anchor2:hover{
+    background-color: grey;
+}
