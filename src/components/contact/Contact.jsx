@@ -36,7 +36,10 @@ function Contact() {
       message
     }
       const res = await axios.post('http://localhost:3005/contact', details)
-      console.log(res)
+     setName("");
+     setEmail("");
+     setSubject("");
+     setMessage("");
   };
   return (
     <div>
