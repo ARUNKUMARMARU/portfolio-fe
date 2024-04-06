@@ -30,10 +30,11 @@ function Navbar(){
       <Menu
       theme="dark"
       mode="horizontal"
-           
+                 
       style={{
         flex: 1,            
         minWidth: 0,
+
       }}>
 
         {

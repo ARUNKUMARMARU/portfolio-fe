@@ -73,7 +73,7 @@ function CardComponent2() {
     target='_blank'
    className="anchor">Back-End</a>
     </span>
-    <span style={{paddingLeft:'40px'}}><a href="https://inventory-management-tool.netlify.app/"
+    <span style={{paddingLeft:'40px'}}><a href="https://dairy-dash-ak.netlify.app/"
     target='_blank' className="anchor2">View</a></span>   
        
       </div>
