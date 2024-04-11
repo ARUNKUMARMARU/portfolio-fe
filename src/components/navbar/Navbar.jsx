@@ -53,6 +53,7 @@ function Navbar(){
     </Header>
     </Layout>
     </div> 
+    
     </div> 
     
   );

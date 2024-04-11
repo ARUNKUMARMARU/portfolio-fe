@@ -15,7 +15,11 @@ function About() {
     </p>
     <p style={{fontSize:"1.2rem", fontFamily:"cursive"}}>
     Hello! I'm Arunkumar, a junior web developer passionate about crafting beautiful and functional websites. With a strong foundation in front-end development and a growing expertise in back-end technologies, I am dedicated to delivering high-quality solutions that meet both user needs and business objectives.
+    
     </p>
+    {/* <p>
+    As a fresh graduate with a passion for web development and a recently completed certified course in the MERN stack, I am eager to kickstart my career in the tech industry. With a strong foundation in front-end and back-end development, I bring enthusiasm and a hunger for learning to every project. I thrive in collaborative environments where I can contribute ideas, solve problems, and grow alongside experienced professionals. Committed to staying updated with the latest technologies and best practices, I am excited about the opportunity to leverage my skills and make a meaningful impact as a junior web developer.
+    </p> */}
     </div>
     <div className='footer'>
        <footer className='footer2'>
