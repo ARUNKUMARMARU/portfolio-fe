@@ -91,6 +91,69 @@ function Skills() {
            <p>GITHUB</p>
           </div>
 
+          <div className='image-wrapper'>
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/180px-HTML5_logo_and_wordmark.svg.png" alt="HTML" 
+           style={{padding:'32px 16px', margin:'19px', width:'150px'}}/>
+           <p>HTML</p>
+          </div>
+           
+
+          <div className='image-wrapper'>
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/900px-JavaScript-logo.png?20120221235433" alt="JAVASCRIPT"
+           style={{padding:'32px 16px', margin:'19px',width:'150px'}}/>
+         <p>JAVASCRIPT</p>
+          </div>
+       
+          <div className='image-wrapper'>
+           <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/544px-CSS3_logo_and_wordmark.svg.png" alt="CSS"  style={{padding:'32px 16px', margin:'19px',width:'115px'}}
+           />
+           <p>CSS</p>
+          </div>
+
+<div className='image-wrapper'>
+           <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/768px-React-icon.svg.png" alt="REACT" 
+            style={{padding:'32px 16px', margin:'19px', width:'150px'}}/>
+            <p>REACT</p>
+          </div>
+
+<div className='image-wrapper'>
+           <img src="https://getbootstrap.com/docs/5.0/assets/brand/bootstrap-logo.svg" alt="BOOTSTRAP"  
+            style={{padding:'32px 16px', margin:'19px', width:'150px'}}/>
+            <p>BOOTSTRAP</p>
+          </div>
+
+<div className='image-wrapper'>
+           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh5d9a1dlKN6uIr9yawVly55Q2YJw9w9ck2RQOAIHSk8hNPMBWrpxKHkF1Y0CsPdS9Tvs&usqp=CAU" alt="MONGODB" 
+             style={{padding:'32px 16px', margin:'19px', width:'150px'}}/>
+            <p>MONGODB</p>
+          </div> 
+
+<div className='image-wrapper'>
+           <img src="https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg" alt="ANT DESIGN"  
+           style={{padding:'32px 16px', margin:'19px', width:'150px'}}/>  
+           <p>ANTDESIGN</p>
+          </div>
+
+<div className='image-wrapper'>
+           <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/885px-Node.js_logo.svg.png" alt="NODE JS" 
+           style={{padding:'32px 16px', margin:'19px',width:'200px'}}/>  
+           <p>NODE JS</p>
+          </div>
+
+          <div className='image-wrapper'>
+   
+           <img src="https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png" alt="EXPRESS JS" 
+           style={{padding:'32px 16px', margin:'19px', width:'200px', paddingTop:'50px',
+           backgroundColor:'white', borderRadius:'50px'}}/>  
+           <p>EXPRESS JS</p>
+          </div>
+
+<div className='image-wrapper'>
+           <img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png" alt="GITHUB" 
+           style={{padding:'32px 16px', margin:'19px', width:'150px'}}/>  
+           <p>GITHUB</p>
+          </div>
+
           </marquee>
 
    </div>

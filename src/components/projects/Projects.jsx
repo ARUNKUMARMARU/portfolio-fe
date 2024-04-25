@@ -103,7 +103,7 @@ function Projects() {
     </div>
 
          <div className='projects'>
-         <h2 style={{color:'white', paddingLeft:'50px', paddingTop:'30px'}}><b>i) Capstone Projects</b></h2>
+         <h2 style={{color:'white', textAlign:'center', paddingTop:'30px'}}><b>Capstone Projects</b></h2>
      <div className='projects2'>
      
       <div className='card-container'>
@@ -112,13 +112,14 @@ function Projects() {
       </div>
      </div>
     <div style={{width:'200vh'}}>
-    <h2 style={{color:'white', paddingLeft:'50px', paddingTop:'150px', }}><b>ii) Mini Projects</b></h2>
+    <h2 style={{color:'white', textAlign:'center',  paddingTop:'150px', }}><b> Mini Projects</b></h2>
     
-    <div style={{display:'flex', justifyContent:"space-between", paddingTop:'70px', paddingLeft:'100px', paddingRight:'100px'}}>
+    <div style={{display:'flex', justifyContent:"space-between", paddingTop:'70px', paddingLeft:'110px'}}>
 
     <Card   
     style={{      
       width: 250,
+      height:'355px',
       backgroundColor:'grey'
     }}
     cover={<img alt="example" src="https://www.predecessorgame.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Frm5ymc69vmwz%2FPKD9am7t1gWDux5ferLpu%2F6cea48c1a37f326cc22d4c9313e9de21%2Fpublic-api-3.png%3F%26w%3D1200&w=1200&q=100" />}
@@ -130,7 +131,7 @@ function Projects() {
   description={<span style={{ color: 'white' }}>Utilized a public API to fetch data and integrate it into a web application. </span>}
 /> <hr />
 
-     <div style={{ display: 'flex', justifyContent: 'space-between',paddingTop:'50px'}}>
+     <div style={{ display: 'flex', justifyContent: 'space-between'}}>
 
     <a href="https://github.com/ARUNKUMARMARU/Task/tree/main/day%2019%20task/random%20dog%20pic/day%2019%20task/random%20dog%20pic" target='_blank' style={{ backgroundColor: 'green', textDecoration: 'none', padding: '15px', borderRadius: '25px', color: 'white', transition: 'background-color 0.3s ease',  }} ><b>Code</b></a>
 
@@ -143,6 +144,7 @@ function Projects() {
   <Card   
     style={{      
       width: 250,
+      height:'372px',
       backgroundColor:'grey'
     }}
     cover={<img alt="example" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSQn5EIRKYlIp2zq_o-jSxzy2ZQ7BYTpbTnQ&s" />}
@@ -155,7 +157,7 @@ function Projects() {
 /> <hr />
 
      <div style={{ display: 'flex', justifyContent: 'space-between',
-     gap: "10px",paddingTop:'40px'}}>
+     gap: "10px"}}>
 
     <a href="https://github.com/ARUNKUMARMARU/react-b47/tree/day20task/" target='_blank' style={{ backgroundColor: 'green', textDecoration: 'none', padding: '15px', borderRadius: '20px', color: 'white' }}><b>Code</b></a>
 
@@ -169,6 +171,7 @@ function Projects() {
   <Card   
     style={{      
       width: 270,
+      height:'453px',
       backgroundColor:'grey'
     }}
     cover={<img alt="example" src="https://www.shutterstock.com/shutterstock/photos/2206784727/display_1500/stock-photo-young-professor-helping-female-student-in-high-school-classroom-friendly-teacher-with-beard-2206784727.jpg" />}
@@ -180,7 +183,7 @@ function Projects() {
   description={<span style={{ color: 'white' }}>The Student Mentor Assigning System is a web-based platform designed to facilitate the seamless matching of students with appropriate mentors. </span>}
 /> <hr />
 
-     <div style={{ display: 'flex', justifyContent: 'space-between',paddingTop:'10px', paddingLeft:'30PX'}}>
+     <div style={{ display: 'flex', justifyContent: 'space-between', paddingLeft:'38PX'}}>
 
     <a href="https://github.com/ARUNKUMARMARU/student-mentor-assigning" target='_blank' style={{ backgroundColor: 'green', textDecoration: 'none', padding: '15px', borderRadius: '25px', color: 'white', transition: 'background-color 0.3s ease',  }} ><b>Back End Code</b></a>
 
@@ -190,6 +193,7 @@ function Projects() {
   <Card   
     style={{      
       width: 280,
+      height:'435px',
       backgroundColor:'grey'
     }}
     cover={<img alt="Hall booking" src="https://png.pngtree.com/thumb_back/fh260/background/20230715/pngtree-d-render-of-conference-room-prior-to-director-s-business-meeting-image_3855343.jpg" />}
@@ -201,7 +205,7 @@ function Projects() {
   description={<span style={{ color: 'white' }}>The Online Hall Booking System is a web-based application designed to provides a convenient platform for users to search, view details, and book available halls based on their requirements. </span>}
 /> <hr />
 
-<div style={{ display: 'flex', justifyContent: 'space-between',paddingTop:'10px', paddingLeft:'30PX'}}>
+<div style={{ display: 'flex', justifyContent: 'space-between',paddingLeft:'50PX'}}>
 
 <a href="https://github.com/ARUNKUMARMARU/hall-booking/tree/master" target='_blank' style={{ backgroundColor: 'green', textDecoration: 'none', padding: '15px', borderRadius: '25px', color: 'white', transition: 'background-color 0.3s ease',  }} ><b>Back End Code</b></a>
 

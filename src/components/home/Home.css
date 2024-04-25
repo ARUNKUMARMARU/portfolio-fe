@@ -13,11 +13,11 @@
 
 .image-text {
   position: absolute;
-  top: 50%;
+  top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-  text-align: center;
+  /* text-align: center; */
   z-index: 2;
 }
 .image-container img {
@@ -32,17 +32,28 @@
 }
 .text2{
   color: white;
- font-size: 35px;
+ font-size: 45px;
 }
 .text3{
   color: white;
- font-size: 45px;
+ font-size: 25px;
 }
 .resume{
   position: absolute;
-  top: 100px;
-  
+  top: 73%;
+  right: 47.5%;
  padding: 10px;
-  background-color: rgba(255, 217, 0, 0.594);
+  background-color: rgb(255, 217, 0);
+  border: none;
+  border-radius: 10px;
+}
+.resume:hover{
+  background-color: bisque;
+  padding: 11px;
+}
+.github{
+  color: inherit;
+  text-decoration: none;
+  font-size: 30px;
 }
 

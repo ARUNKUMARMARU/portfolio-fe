@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import {Layout, Menu, theme } from 'antd';
 import './Navbar.css';
 const { Header, Content, Footer } = Layout;
-//const item = ['Home', 'About', "Skills", "Projects","Professional experience", "Contact"]
+
 const items = [
   { label: 'Home', href: '/' },
   {  label: 'About', href: 'about' },
@@ -14,6 +14,7 @@ const items = [
 
 
 function Navbar(){ 
+
 
   return (
     <div>
@@ -39,8 +40,10 @@ function Navbar(){
 
         {
           items.map((item,i)=>{
-           return <Menu.Item key={i+1}>
-            <a href={item.href} key={i+1}>{item.label}</a>
+           return <Menu.Item key={i+1}
+           >
+            <a href={item.href} key={i+1}
+            className='menu-item' >{item.label}</a>
             </Menu.Item>
           })
         }
