@@ -133,9 +133,9 @@ function Projects() {
 
      <div style={{ display: 'flex', justifyContent: 'space-between'}}>
 
-    <a href="https://github.com/ARUNKUMARMARU/Task/tree/main/day%2019%20task/random%20dog%20pic/day%2019%20task/random%20dog%20pic" target='_blank' style={{ backgroundColor: 'green', textDecoration: 'none', padding: '15px', borderRadius: '25px', color: 'white', transition: 'background-color 0.3s ease',  }} ><b>Code</b></a>
+    <a href="https://github.com/ARUNKUMARMARU/public-api.git" target='_blank' style={{ backgroundColor: 'green', textDecoration: 'none', padding: '15px', borderRadius: '25px', color: 'white', transition: 'background-color 0.3s ease',  }} ><b>Code</b></a>
 
-    <a href="https://remarkable-sundae-eee253.netlify.app/day%2019%20task/random%20dog%20pic/random.html" target='_blank' style={{ backgroundColor: 'yellowgreen', textDecoration: 'none', padding: '15px', borderRadius: '25px', color: 'black' }}
+    <a href="https://public-api-random-dog-image.netlify.app/" target='_blank' style={{ backgroundColor: 'yellowgreen', textDecoration: 'none', padding: '15px', borderRadius: '25px', color: 'black' }}
     ><b>View</b></a>
 
   </div>
