@@ -133,9 +133,9 @@ function Projects() {
 
      <div style={{ display: 'flex', justifyContent: 'space-between'}}>
 
-    <a href="https://github.com/ARUNKUMARMARU/Task/tree/main/day%2019%20task/random%20dog%20pic/day%2019%20task/random%20dog%20pic" target='_blank' style={{ backgroundColor: 'green', textDecoration: 'none', padding: '15px', borderRadius: '25px', color: 'white', transition: 'background-color 0.3s ease',  }} ><b>Code</b></a>
+    <a href="https://github.com/ARUNKUMARMARU/public-api.git" target='_blank' style={{ backgroundColor: 'green', textDecoration: 'none', padding: '15px', borderRadius: '25px', color: 'white', transition: 'background-color 0.3s ease',  }} ><b>Code</b></a>
 
-    <a href="https://remarkable-sundae-eee253.netlify.app/day%2019%20task/random%20dog%20pic/random.html" target='_blank' style={{ backgroundColor: 'yellowgreen', textDecoration: 'none', padding: '15px', borderRadius: '25px', color: 'black' }}
+    <a href="https://public-api-random-dog-image.netlify.app/" target='_blank' style={{ backgroundColor: 'yellowgreen', textDecoration: 'none', padding: '15px', borderRadius: '25px', color: 'black' }}
     ><b>View</b></a>
 
   </div>
@@ -152,17 +152,17 @@ function Projects() {
   >
     
     <Meta
-  title={<span style={{ color: 'white'  }}><b><u>Shop Homepage</u></b></span>}
+  title={<span style={{ color: 'white'  }}><b><u>Shop Homepage (Static UI)</u></b></span>}
   description={<span style={{ color: 'white' }}>The Shop Home Page serves as the entry point for customers to explore and shop for products offered by the online store. </span>}
 /> <hr />
 
      <div style={{ display: 'flex', justifyContent: 'space-between',
      gap: "10px"}}>
 
-    <a href="https://github.com/ARUNKUMARMARU/react-b47/tree/day20task/" target='_blank' style={{ backgroundColor: 'green', textDecoration: 'none', padding: '15px', borderRadius: '20px', color: 'white' }}><b>Code</b></a>
+    <a href="https://github.com/ARUNKUMARMARU/Home-Deco.git" target='_blank' style={{ backgroundColor: 'green', textDecoration: 'none', padding: '15px', borderRadius: '20px', color: 'white' }}><b>Code</b></a>
 
    
-   <a href="https://legendary-moxie-2ddf99.netlify.app/" target='_blank' style={{ backgroundColor: 'yellowgreen', textDecoration: 'none', padding: '15px', borderRadius: '25px', color: 'black', }}><b>View</b></a>
+   <a href="https://home-decorations-ui.netlify.app/" target='_blank' style={{ backgroundColor: 'yellowgreen', textDecoration: 'none', padding: '15px', borderRadius: '25px', color: 'black', }}><b>View</b></a>
   
 
   </div>
