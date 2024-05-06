@@ -1,9 +1,25 @@
 import React from 'react'
 import {GithubFilled,LinkedinFilled} from '@ant-design/icons';
 import "./Home.css";
+import axios from 'axios';
 
 
 function Home() {
+  axios.get('https://inventory-management-tool-backend-shqe.onrender.com/api/getstaff')
+  .then(response => {
+   
+  })
+  .catch(error => {
+   
+  });
+
+  axios.get('https://dairy-dash-back-end-3.onrender.com/api/getallusers')
+  .then(response => {
+    
+  })
+  .catch(error => {
+    
+  });
   return (
     <div>  
 

@@ -1,11 +1,26 @@
 import React, { useEffect, useRef } from 'react'
 import "./Skills.css";
 import {HomeFilled, PhoneFilled, GithubFilled, MailOutlined, LinkedinFilled} from '@ant-design/icons'
+import axios from 'axios';
 
 
 function Skills() {
 
-  
+  axios.get('https://inventory-management-tool-backend-shqe.onrender.com/api/getstaff')
+  .then(response => {
+    
+  })
+  .catch(error => {
+   
+  });  
+
+  axios.get('https://dairy-dash-back-end-3.onrender.com/api/getallusers')
+  .then(response => {
+    
+  })
+  .catch(error => {
+    
+  });
 
   return (
     <div>

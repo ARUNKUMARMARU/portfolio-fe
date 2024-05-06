@@ -3,9 +3,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import "./Projects.css";
 import { Card } from 'antd';
 const { Meta } = Card;
+import axios from 'axios';
 
 
 function CardComponent() {
+  
   return (  
     
         <div className="card" style={{ width: '30rem'}}>
@@ -84,6 +86,21 @@ function CardComponent2() {
 }
 
 function Projects() {
+  axios.get('https://inventory-management-tool-backend-shqe.onrender.com/api/getstaff')
+  .then(response => {
+    
+  })
+  .catch(error => {
+  
+  });
+
+  axios.get('https://dairy-dash-back-end-3.onrender.com/api/getallusers')
+  .then(response => {
+    
+  })
+  .catch(error => {
+    
+  });
   return (
 
     <div>
@@ -143,7 +160,7 @@ function Projects() {
 
   <Card   
     style={{      
-      width: 250,
+      width: 265,
       height:'372px',
       backgroundColor:'grey'
     }}
