@@ -6,6 +6,23 @@ const { Meta } = Card;
 import axios from 'axios';
 
 
+axios.get('https://inventory-management-tool-backend-shqe.onrender.com/api/getstaff')
+  .then(response => {
+   
+  })
+  .catch(error => {
+    
+  });
+
+  axios.get('https://dairy-dash-back-end-3.onrender.com/api/getprice')
+  .then(response => {
+   
+  })
+  .catch(error => {
+    
+  });
+
+
 function CardComponent() {
   
   return (  
