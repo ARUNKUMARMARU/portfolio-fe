@@ -2,24 +2,8 @@ import React, { useState } from 'react';
 import {Layout, Menu, theme } from 'antd';
 import './Navbar.css';
 const { Header, Content, Footer } = Layout;
-import axios from 'axios';
+import {Link} from 'react-router-dom';
 
-
-axios.get('https://inventory-management-tool-backend-shqe.onrender.com/api/getstaff')
-  .then(response => {
-   
-  })
-  .catch(error => {
-    
-  });
-
-  axios.get('https://dairy-dash-back-end-3.onrender.com/api/getprice')
-  .then(response => {
-   
-  })
-  .catch(error => {
-    
-  });
 
 const items = [
   { label: 'Home', href: '/' },
@@ -60,8 +44,8 @@ function Navbar(){
           items.map((item,i)=>{
            return <Menu.Item key={i+1}
            >
-            <a href={item.href} key={i+1}
-            className='menu-item' >{item.label}</a>
+            <Link to={item.href} key={i+1}
+            className='menu-item' >{item.label}</Link>
             </Menu.Item>
           })
         }

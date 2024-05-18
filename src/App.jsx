@@ -30,7 +30,7 @@ function App() {
   return (
    
       <Router>
-
+<div className="container-fluid">
        
          <Navbar/>
           
@@ -45,7 +45,7 @@ function App() {
        
         
 
-       
+        </div>
 
       </Router>
   )  

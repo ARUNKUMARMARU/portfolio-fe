@@ -1,25 +1,10 @@
 import React from 'react'
 import {GithubFilled,LinkedinFilled} from '@ant-design/icons';
 import "./Home.css";
-import axios from 'axios';
 
 
 function Home() {
-  axios.get('https://inventory-management-tool-backend-shqe.onrender.com/api/getstaff')
-  .then(response => {
-   
-  })
-  .catch(error => {
-   
-  });
-
-  axios.get('https://dairy-dash-back-end-3.onrender.com/api/getallusers')
-  .then(response => {
-    
-  })
-  .catch(error => {
-    
-  });
+  
   return (
     <div>  
 
@@ -44,7 +29,7 @@ function Home() {
         <img src="https://images.unsplash.com/photo-1602080858428-57174f9431cf?q=80&w=1902&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="intro-image" 
       />
        <div className='resume'>
-    <a href="https://drive.google.com/file/d/1WPtNHxVDZtHZ56sEnUFbi-SuxfnRJYnt/view?usp=drive_link" download="Resume.pdf" target='_blank'
+    <a href="https://drive.google.com/file/d/1zDywlyhWixsciLNeRCCdAoMxZqoPrUHR/view?usp=drive_link" download="Resume.pdf" target='_blank'
     style={{textDecoration:'none', color:'black'}}>Resume</a>
     </div>
       </div>

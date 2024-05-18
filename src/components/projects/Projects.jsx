@@ -3,24 +3,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import "./Projects.css";
 import { Card } from 'antd';
 const { Meta } = Card;
-import axios from 'axios';
-
-
-axios.get('https://inventory-management-tool-backend-shqe.onrender.com/api/getstaff')
-  .then(response => {
-   
-  })
-  .catch(error => {
-    
-  });
-
-  axios.get('https://dairy-dash-back-end-3.onrender.com/api/getprice')
-  .then(response => {
-   
-  })
-  .catch(error => {
-    
-  });
 
 
 function CardComponent() {
@@ -41,8 +23,9 @@ function CardComponent() {
         <li className="list-group-item" style={{backgroundColor:"rgba(0, 0, 0, 0.750)", color:'white'}}><span><b>Technoligies : </b></span> CRUD Operations, Authentication, All API methods.</li>
         
       </ul>
-      <div className="card-body" style={{backgroundColor:"rgba(0, 0, 0, 0.750)", width:'68.8vh', paddingTop:'30px' }} >
-       <span  > <a href="https://github.com/ARUNKUMARMARU/Inventory-management-tool-frontend"
+      <div className="card-body2">
+      <div className='card-body'>
+      <span  > <a href="https://github.com/ARUNKUMARMARU/Inventory-management-tool-frontend"
        target="_blank" className="anchor">Front-End</a>
     </span>
 
@@ -52,6 +35,7 @@ function CardComponent() {
     </span>
     <span style={{paddingLeft:'40px'}}><a href="https://inventory-management-tool-1.netlify.app/"
     target='_blank' className="anchor2">View</a></span>   
+      </div>
        
       </div>
     </div>
@@ -83,7 +67,8 @@ function CardComponent2() {
       <li className="list-group-item" style={{backgroundColor:"rgba(0, 0, 0, 0.750)", color:'white'}}><span><b>Technoligies : </b></span>Authentication, Authorization, Sockets (Implemented as chat), Third party application integration (Stripe), CRUD Operations, Authentication, All API methods.</li>
       
     </ul>
-    <div className="card-body" style={{backgroundColor:"rgba(0, 0, 0, 0.750)", width:'68.8vh', paddingTop:'30px' }} >
+    <div className='card-body2'>
+    <div className="card-body" >
        <span  > <a href="https://github.com/ARUNKUMARMARU/DAIRY-DASH-FE"
        target="_blank" className="anchor">Front-End</a>
     </span>
@@ -96,6 +81,7 @@ function CardComponent2() {
     target='_blank' className="anchor2">View</a></span>   
        
       </div>
+    </div>
   </div>
    
   
@@ -103,29 +89,15 @@ function CardComponent2() {
 }
 
 function Projects() {
-  axios.get('https://inventory-management-tool-backend-shqe.onrender.com/api/getstaff')
-  .then(response => {
-    
-  })
-  .catch(error => {
   
-  });
-
-  axios.get('https://dairy-dash-back-end-3.onrender.com/api/getallusers')
-  .then(response => {
-    
-  })
-  .catch(error => {
-    
-  });
   return (
 
     <div>
 
-<div className='image-container2'>
-        <img src="https://img.freepik.com/free-vector/creative-geometric-design-space_53876-89781.jpg?size=626&ext=jpg&ga=GA1.1.284963970.1710327628&semt=ais" alt="background image" />
-       
-       <div className='img-text2'>
+<div className='image-container-project'>
+        <img src="https://img.freepik.com/free-vector/creative-geometric-design-space_53876-89781.jpg?size=626&ext=jpg&ga=GA1.1.284963970.1710327628&semt=ais" style={{width:'100%'}} alt="background image" />
+        
+       <div className='img-text5'>
 
        <div>
        <h1><b>Projects</b></h1>
@@ -145,8 +117,8 @@ function Projects() {
       <CardComponent2/>
       </div>
      </div>
-    <div style={{width:'200vh'}}>
-    <h2 style={{color:'white', textAlign:'center',  paddingTop:'150px', }}><b> Mini Projects</b></h2>
+    <div className = 'mini-project'>
+    <h2 className= 'mini-project-2'><b> Mini Projects</b></h2>
     
     <div style={{display:'flex', justifyContent:"space-between", paddingTop:'70px', paddingLeft:'110px'}}>
 
@@ -178,7 +150,7 @@ function Projects() {
   <Card   
     style={{      
       width: 265,
-      height:'372px',
+      height:'382px',
       backgroundColor:'grey'
     }}
     cover={<img alt="example" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSQn5EIRKYlIp2zq_o-jSxzy2ZQ7BYTpbTnQ&s" />}

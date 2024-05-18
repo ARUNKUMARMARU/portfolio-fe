@@ -1,4 +1,4 @@
-.layout{
+/* .layout{
     display: flex;
     width: 100%;
     position: fixed;
@@ -17,3 +17,34 @@ background-color: blue;
   .background{
     background-color: blue;
   }
+   */
+
+   .layout {
+    display: flex;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+}
+
+.menu-item {
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.menu-item:hover {
+    background-color: blue;
+}
+
+.background {
+    background-color: blue;
+}
+
+@media (max-width : 767px) {
+  .layout {
+   
+    width: 100%;
+   
+}
+}
